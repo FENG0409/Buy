@@ -1,0 +1,461 @@
+@media screen and (min-width: 320px) and (max-width: 450px) {
+    // login_income 登入進去頁面
+    .income {
+        width: 100%;
+        height: 130px;
+        background-color: #f97724;
+        .income_title {
+            font-size: 25px;
+            color: #fff;
+            font-weight: bold;
+            text-align: center;
+            padding-top: 2%;
+        }
+        .income_main {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 2% 3% 0 0%;
+            a {
+                text-decoration: none;
+                img {
+                    width: 13vw;
+                }
+                p {
+                    font-size: 15px;
+                    color: #fff;
+                    text-align: center;
+                    padding-top: 5%;
+                }
+            }
+        }
+    }
+
+    //myincome 收益
+    #myincome {
+        .myincome_titile {
+            width: 100%;
+            height: 28px;
+            background-color: #000;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .return {
+                font-size: 18px;
+                color: #fff;
+
+                display: block;
+                margin-left: 1%;
+            }
+            a {
+                text-decoration: none;
+            }
+            .myincome_word {
+                font-size: 18px;
+                color: #fff;
+                margin-right: 1%;
+            }
+        }
+
+        .myincome_banner {
+            width: 100%;
+            height: 160px;
+            background-image: url("../images/banner/complaint_banner.jpg");
+            background-repeat: no-repeat;
+            background-size: 100%;
+            .myincome_titleword {
+                font-size: 25px;
+                font-weight: bolder;
+                color: #fff;
+                text-align: center;
+                padding-top: 5%;
+            }
+            .myincome_titleword1 {
+                font-size: 25px;
+                font-weight: bolder;
+                color: #fff;
+                text-align: center;
+                padding-top: 1%;
+            }
+            .myincome_titleword2 {
+                font-size: 15px;
+                color: #fff;
+                text-align: center;
+                padding-top: 3%;
+            }
+            .myincome_titleword3 {
+                font-size: 12px;
+                color: #fff;
+                text-align: center;
+                padding-top: 2%;
+            }
+        }
+
+        .myincome_main {
+            width: 100%;
+            height: 80vh;
+            background-color: #eaeaea;
+            padding-top: 5%;
+            .myincome_main_card {
+                width: 90%;
+                height: 55px;
+                background-color: #fff;
+                border-radius: 10px;
+                margin: 0 auto 5% auto;
+                .myincome_mainword {
+                    font-size: 17px;
+                    padding: 1% 0 0% 4%;
+                    font-weight: bold;
+                }
+                .myincome_mainword1 {
+                    font-size: 17px;
+                    padding: 1% 0 0% 4%;
+                    font-weight: bold;
+                    color: green;
+                }
+                .myincome_mainword2 {
+                    font-size: 17px;
+                    padding: 1% 0 0% 4%;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    //buyer 買家
+    #buyer {
+        .buyer_header {
+            width: 100%;
+            height: 75px;
+            background-color: #000;
+            border: 1px solid #000;
+            .buyer_titile {
+                width: 100%;
+                height: 40px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .return {
+                    font-size: 18px;
+                    color: #fff;
+
+                    display: block;
+                    margin-left: 1%;
+                }
+                a {
+                    text-decoration: none;
+                }
+                .buyer_word {
+                    font-size: 18px;
+                    color: #fff;
+                    margin-right: 1%;
+                }
+            }
+            input {
+                width: 90%;
+                height: 30px;
+                font-size: 15px;
+                border-radius: 10px;
+                padding-left: 1%;
+
+                margin: 0 5%;
+            }
+        }
+
+        .buyer_nabar {
+            width: 100%;
+            height: 45px;
+            background-color: #000;
+            border: #000;
+
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            #buyer_btn {
+                width: 22%;
+                height: 25px;
+                background-color: gray;
+                color: #fff;
+                text-align: center;
+                line-height: 25px;
+                border-radius: 15px;
+            }
+            #buyer_btn:hover {
+                background-color: #00db00;
+            }
+        }
+
+        .buyer_main {
+            width: 100%;
+            height: 85vh;
+            background-color: #eaeaea;
+            padding-top: 5%;
+            .buyer_card {
+                width: 90%;
+                height: 50px;
+                background-color: #fff;
+                border-radius: 15px;
+
+                font-size: 15px;
+                color: #000;
+                font-weight: bold;
+                text-align: center;
+
+                margin: 0 auto 5% auto;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                p {
+                    text-align: center;
+                    width: 33%;
+                    word-wrap: break-word;
+                }
+            }
+        }
+
+        .buyer_footer {
+            width: 100%;
+            height: 30px;
+            font-size: 15px;
+            font-weight: bold;
+            text-align: center;
+            line-height: 30px;
+            color: #000;
+            background-color: grey;
+
+            position: fixed;
+            bottom: 0;
+        }
+    }
+
+    //order 訂單
+    #order {
+        .order_titile {
+            width: 100%;
+            height: 30px;
+            background-color: #000;
+            border: 1px solid #000;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .return {
+                font-size: 18px;
+                color: #fff;
+
+                display: block;
+                margin-left: 1%;
+            }
+            a {
+                text-decoration: none;
+            }
+            .order_word {
+                font-size: 18px;
+                color: #fff;
+                margin-right: 1%;
+            }
+        }
+
+        .order_nabar {
+            width: 100%;
+            height: 45px;
+            background-color: #000;
+            border: #000;
+
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            #order_btn {
+                width: 22%;
+                height: 25px;
+                background-color: gray;
+                color: #fff;
+                text-align: center;
+                line-height: 25px;
+                border-radius: 15px;
+            }
+            #order_btn:hover {
+                background-color: #00db00;
+            }
+        }
+
+        .order_main {
+            .order_card {
+                width: 100%;
+                margin: 1% auto;
+                .order_card_title {
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    p {
+                        font-size: 15px;
+                    }
+                }
+                .order_card_data {
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    margin-top: 2%;
+                    p {
+                        width: 25%;
+                        font-size: 15px;
+                        text-align: center;
+                        word-wrap: break-word;
+                    }
+                }
+            }
+        }
+
+        .order_footer {
+            width: 100%;
+            height: 30px;
+            font-size: 15px;
+            font-weight: bold;
+            text-align: center;
+            line-height: 30px;
+            color: #000;
+            background-color: grey;
+
+            position: fixed;
+            bottom: 0;
+        }
+    }
+
+    //settle 结算
+    #settle {
+        .settle_titile {
+            width: 100%;
+            height: 28px;
+            background-color: #000;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .return {
+                font-size: 18px;
+                color: #fff;
+                                
+                display: block;
+                margin-left: 1%;
+            }
+
+            .settle_word {
+                font-size: 18px;
+                color: #fff;
+                margin-right: 1%;
+            }
+        }
+
+        .settle_banner {
+            width: 100%;
+            height: 160px;
+            background-image: url("../images/banner/complaint_banner.jpg");
+            background-repeat: no-repeat;
+            background-size: 100%;
+            .settle_titleword {
+                font-size: 25px;
+                font-weight: bolder;
+                color: #fff;
+                text-align: center;
+                padding-top: 5%;
+            }
+            .settle_titleword1 {
+                font-size: 25px;
+                font-weight: bolder;
+                color: #fff;
+                text-align: center;
+                padding-top: 1%;
+            }
+            .settle_titleword2 {
+                font-size: 15px;
+                color: #fff;
+                text-align: center;
+                padding-top: 1%;
+            }
+        }
+
+        .settle_main {
+            .settle_input {
+                width: 98%;
+                display: flex;
+                margin: 3.5% auto;
+                p {
+                    font-size: 18px;
+                    line-height: 35px;
+                    font-weight: bold;
+                    margin-left: 2%;
+                }
+                input {
+                    width: 72%;
+                    height: 35px;
+                    font-size: 18px;
+                    margin-left: 3%;
+                    border-radius: 5px;
+                    border-color: #b5b6a1;
+                }
+            }
+            .settle_word {
+                width: 95%;
+                color: gray;
+                margin: 5% auto;
+                font-size: 15px;
+            }
+
+            .settle_btn {
+                width: 40%;
+                height: 40px;
+                color: #fff;
+                font-size: 23px;
+                text-align: center;
+                line-height: 40px;
+                font-weight: bold;
+                background-image: url(../images/shareAccount/按鈕.png);
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                margin: 10% auto 2% auto;
+                z-index: 100;
+            }
+
+            .settle_word1 {
+                width: 90%;
+                font-size: 15px;
+
+                margin: 5% auto;
+            }
+        }
+    }
+
+    //提交金頟弹窗
+    #send_pop {
+        width: 90%;
+        height: 125px;
+        background-color: #635858;
+
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 99;
+
+        display: none;
+        .send_main {
+            color: #fff;
+            font-size: 20px;
+            margin: 5% 0 0 5%;
+        }
+        .send_btn {
+            width: 35%;
+            margin: 12% 0 0 60%;
+            .send_btn {
+                font-weight: bolder;
+                font-size: 20px;
+                a {
+                    color: #20e2e2;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

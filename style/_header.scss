@@ -1,0 +1,432 @@
+@media screen and (min-width: 320px) and (max-width: 450px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    //首页
+    .header {
+        width: 100%;
+        height: 35px;
+        background-color: #000;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .logo {
+            img {
+                width: 25vw;
+                margin-left: 3%;
+            }
+        }
+        .Narbar {
+            margin-right: 2%;
+            li {
+                list-style: none;
+                .login {
+                    font-size: 20px;
+                    color: #fff;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    //登入页面
+    #login {
+        .login_title {
+            width: 100%;
+            p {
+                font-size: 25px;
+                font-weight: bolder;
+                text-align: center;
+                margin: 2% auto 0 auto;
+            }
+            img {
+                width: 60%;
+                margin: 5% auto;
+
+                display: block;
+            }
+        }
+        .login_main {
+            width: 100%;
+            margin: 8% auto;
+            .login_main_title {
+                display: flex;
+                width: 90%;
+                margin-left: 5%;
+                img {
+                    width: 8vw;
+                    margin-top: 5%;
+                }
+                p {
+                    font-size: 20px;
+                    color: #b5aeae;
+                    margin-top: 8%;
+                }
+            }
+
+            input {
+                display: block;
+                width: 90%;
+                height: 40px;
+                font-size: 18px;
+                background-color: #e8e4e4;
+                border-color: #e8e4e4;
+                border: 10px;
+
+                margin: 4% auto;
+                border-radius: 10px;
+                padding-left: 2%;
+            }
+
+            a {
+                text-decoration: none;
+                .login_btn {
+                    width: 30%;
+                    height: 45px;
+                    font-size: 20px;
+                    color: #fff;
+                    background-color: #f97724;
+                    border: #f97724;
+                    border-radius: 15px;
+
+                    display: block;
+                    margin: 8% auto;
+                }
+            }
+
+            .login_word {
+                font-size: 20px;
+                color: #f97724;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                hr {
+                    display: block;
+                    height: 1px;
+                    background-color: #f97724;
+                    width: 30%;
+                }
+                p {
+                    width: 10%;
+                }
+            }
+
+            a {
+                text-decoration: none;
+                .login_btn1 {
+                    width: 30%;
+                    height: 45px;
+                    font-size: 20px;
+                    color: #f97724;
+                    background-color: #fff;
+                    border-style: solid;
+                    border-color: #f97724;
+                    border-radius: 15px;
+
+                    display: block;
+                    margin: 8% auto;
+                }
+            }
+        }
+    }
+
+    //注册页面
+    #register {
+        .register_title {
+            width: 100%;
+            p {
+                font-size: 25px;
+                font-weight: bolder;
+                text-align: center;
+                margin: 2% auto 0 auto;
+            }
+            img {
+                width: 60%;
+                margin: 5% auto;
+
+                display: block;
+            }
+        }
+        .register_main {
+            width: 100%;
+            margin: 8% auto;
+            .register_main_title {
+                display: flex;
+                width: 90%;
+                margin-left: 5%;
+                img {
+                    width: 5vw;
+                    height: 5vw;
+                    margin-top: 5%;
+                }
+                p {
+                    font-size: 20px;
+                    color: #b5aeae;
+                    margin: 4% 0 0 2%;
+                }
+            }
+
+            input {
+                display: block;
+                width: 90%;
+                height: 40px;
+                font-size: 18px;
+                background-color: #e8e4e4;
+                border-color: #e8e4e4;
+                border: 10px;
+
+                margin: 4% auto;
+                border-radius: 10px;
+                padding-left: 2%;
+            }
+
+            .register_check {
+                width: 90%;
+
+                margin: 4% auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                input {
+                    width: 15px;
+                    height: 15px;
+                    border-color: #f97724;
+                    color: #f97724;
+                    margin-right: 2%;
+                }
+                p {
+                    font-size: 15px;
+                }
+            }
+
+            .register_check1 {
+                width: 90%;
+
+                margin: 4% auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                input {
+                    width: 55px;
+                    height: 45px;
+                    border-color: #f97724;
+                    color: #f97724;
+                    margin-left: 0;
+                    display: block;
+                }
+                p {
+                    margin-left: 3%;
+                    font-size: 15px;
+                }
+            }
+
+            a {
+                text-decoration: none;
+                .register_btn {
+                    width: 30%;
+                    height: 45px;
+                    font-size: 20px;
+                    color: #fff;
+                    background-color: #f97724;
+                    border: #f97724;
+                    border-radius: 15px;
+
+                    display: block;
+                    margin: 12% auto;
+                }
+            }
+
+            .register_word {
+                font-size: 20px;
+                color: #f97724;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                hr {
+                    display: block;
+                    height: 1px;
+                    background-color: #f97724;
+                    width: 30%;
+                }
+                p {
+                    width: 10%;
+                }
+            }
+
+            a {
+                text-decoration: none;
+                .register_btn1 {
+                    width: 30%;
+                    height: 45px;
+                    font-size: 20px;
+                    color: #f97724;
+                    background-color: #fff;
+                    border-style: solid;
+                    border-color: #f97724;
+                    border-radius: 15px;
+
+                    display: block;
+                    margin: 8% auto;
+                }
+            }
+        }
+    }
+
+    //首頁弹窗
+    #index_pop {
+        width: 90%;
+        height: 125px;
+        background-color: #635858;
+
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 99;
+
+        display: none;
+        .pop_main {
+            color: #fff;
+            font-size: 20px;
+            margin: 5% 0 0 5%;
+        }
+        .pop_btn {
+            width: 35%;
+            display: flex;
+            justify-content: space-between;
+            margin: 12% 0 0 60%;
+            .btn_close {
+                color: #20e2e2;
+                font-weight: bolder;
+                font-size: 20px;
+            }
+            .btn_send {
+                font-weight: bolder;
+                font-size: 20px;
+                a {
+                    color: #20e2e2;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    // 弹窗-banner
+    #pop_banner {
+        width: 100%;
+        height: 110vh;
+        background-color: #403636;
+        position: fixed;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 95%;
+        z-index: 98;
+        #scrollPics {
+            overflow: hidden;
+            // position: relative;
+            .slider {
+                margin-top: 0;
+                img {
+                    width: 70vw;
+                }
+            }
+            .num {
+                position: absolute;
+                right: 35%;
+                bottom: 6%;
+                li {
+                    float: left;
+                    color: #ff7300;
+                    text-align: center;
+                    line-height: 16px;
+                    width: 16px;
+                    height: 16px;
+                    cursor: pointer;
+                    overflow: hidden;
+                    margin: 3px 1px;
+                    border: 1px solid #ff7300;
+                    background-color: #fff;
+                }
+                li.on {
+                    color: #fff;
+                    line-height: 21px;
+                    width: 21px;
+                    height: 21px;
+                    font-size: 16px;
+                    margin: 0 1px;
+                    border: 0;
+                    background-color: #ff7300;
+                    font-weight: bold;
+                }
+            }
+        }
+        .banner_title {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            .banner_btnall {
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                margin-top: 13%;
+                .banner_btn_first {
+                    font-size: 20px;
+                    color: #fff;
+                    font-weight: bolder;
+                }
+                .banner_btn_second {
+                    font-size: 20px;
+                    color: #fff;
+                    font-weight: bolder;
+                }
+            }
+        }
+    }
+
+    //登出弹窗
+    #signout_pop {
+        width: 90%;
+        height: 125px;
+        background-color: #635858;
+
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 99;
+
+        display: none;
+        .signout_main {
+            color: #fff;
+            font-size: 20px;
+            margin: 5% 0 0 5%;
+        }
+        .signout_btn {
+            width: 35%;
+            display: flex;
+            justify-content: space-between;
+            margin: 12% 0 0 60%;
+
+            .signout_close {
+                color: #20e2e2;
+                font-weight: bolder;
+                font-size: 20px;
+            }
+            .signout_send {
+                font-weight: bolder;
+                font-size: 20px;
+                a {
+                    color: #20e2e2;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

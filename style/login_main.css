@@ -1,0 +1,8 @@
+@media screen and (min-width: 320px) and (max-width: 450px) {
+  .login_icome {
+    width: 100%;
+    height: 100px;
+    background-color: #f97724;
+  }
+}
+/*# sourceMappingURL=login_main.css.map */

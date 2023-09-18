@@ -1,0 +1,1037 @@
+@media screen and (min-width: 320px) and (max-width: 450px) {
+    //myplatform  我的平台
+    #myplatform {
+        width: 100%;
+        height: 103vh;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        .myplatform_title {
+            width: 100%;
+            height: 28px;
+            background-color: #000;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .return {
+                font-size: 18px;
+                color: #fff;
+
+                display: block;
+                margin-left: 1%;
+            }
+            a{
+                text-decoration: none;
+            }
+            .myplatform_titleword {
+                font-size: 18px;
+                font-weight: bolder;
+                color: #fff;
+                margin-right: 1%;
+            }
+        }
+        .myplatform_main {
+            .myplatform_card {
+                .myplatform_logo {
+                    float: left;
+                    margin: 0% 2% 5% 3%;
+                    img {
+                        width: 25vw;
+                    }
+                }
+                .myplatform_menu {
+                    margin-top: 5%;
+                    .myplatform_menu_first {
+                        font-size: 18px;
+                        font-weight: bolder;
+                    }
+                    .myplatform_menu_second {
+                        font-size: 10px;
+                        font-weight: bolder;
+                    }
+                }
+                a{
+                    text-decoration: none;
+                   .myplatform_btn {
+                    width: 43%;
+                    height: 40px;
+                    color: #fff;
+                    text-align: center;
+                    font-size: 18px;
+                    line-height: 38px;
+                    font-weight: bold;
+                    background-image: url(../images/shareAccount/按鈕.png);
+                    background-repeat: no-repeat;
+                    background-size: 100% 100%;
+                    margin: 3% 20% 0 30%;
+                    z-index: 100;
+                } 
+                }
+                
+            }
+            .myplatform_card1 {
+                clear: left;
+                display: flex;
+                justify-content: space-between;
+                margin: auto 5% auto 10%;
+                .myplatform_word {
+                    font-size: 20px;
+                    color: #6c6c6c;
+                }
+                .myplatform_word1 {
+                    font-size: 15px;
+                    color: #6c6c6c;
+                    opacity: 40%;
+                }
+            }
+            .myplatform_card2 {
+                .myplatform_card2_title {
+                    width: 90%;
+                    margin: 2% auto 1% auto;
+                    font-size: 18px;
+                    font-weight: bolder;
+                }
+                .myplatform_card2_main {
+                    width: 90%;
+                    margin: 1% auto 1% auto;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    //shareplatorm 快速分享
+    #shareplatorm {
+        .shareplatorm_header {
+            position: sticky;
+            top: 0;
+            z-index: 5;
+            background-color: #fff;
+            .shareplatorm_title {
+                width: 100%;
+                height: 28px;
+                background-color: #000;
+
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .return {
+                    font-size: 18px;
+                    color: #fff;
+
+                    display: block;
+                    margin-left: 1%;
+                }
+                a{
+                    text-decoration: none;
+                }
+                .shareplatorm_titleword {
+                    font-size: 18px;
+                    font-weight: bolder;
+                    color: #fff;
+                    margin-right: 1%;
+                }
+            }
+            .shareplatorm_introduce {
+                .shareplatorm_word {
+                    font-size: 25px;
+                    color: #000;
+                    font-weight: bolder;
+                    margin: 5% 0 3% 5%;
+                }
+                .shareplatorm_word1 {
+                    font-size: 18px;
+                    color: rgb(20, 148, 207);
+                    margin: 0 0 3% 6%;
+                    display: flex;
+                    .shareplatorm_btn {
+                        width: 22%;
+                        height: 40px;
+                        text-align: center;
+                        line-height: 40px;
+                        color: #fff;
+                        background-image: url(../images/shared/按鈕3.png);
+                        background-repeat: no-repeat;
+                        background-size: 100% 100%;
+
+                        margin: -1% 0 0 5%;
+                    }
+                }
+                .shareplatorm_word2 {
+                    width: 88%;
+                    margin: 3% auto;
+                }
+            }
+        }
+
+        .shareplatorm_main {
+            .shareplatorm_main_menu {
+                width: 100%;
+                height: 100%;
+                overflow-y: scroll;
+                .shareplatorm_card {
+                    width: 85%;
+                    margin: 2% 15%;
+                    img {
+                        width: 70vw;
+                    }
+                    .sharplatorm_btn {
+                        width: 40%;
+                        height: 30px;
+                        color: #fff;
+                        text-align: center;
+                        line-height: 30px;
+                        margin-top: 1%;
+                        margin: 5% 22%;
+                        background-image: url(../images/shareAccount/按鈕.png);
+                        background-repeat: no-repeat;
+                        background-size: 100% 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    //taskplatform 任務大廳
+    #taskplatform {
+        .taskplatform_header {
+            position: sticky;
+            top: 0;
+            z-index: 5;
+            background-color: #fff;
+            overflow-x: hidden;
+            .taskplatform_titile {
+                width: 100%;
+                height: 28px;
+                background-color: #000;
+
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .return {
+                    font-size: 18px;
+                    color: #fff;
+
+                    display: block;
+                    margin-left: 1%;
+                }
+                a{
+                    text-decoration: none;
+                }
+                .taskplatform_word {
+                    font-size: 18px;
+                    color: #fff;
+                    margin-right: 1%;
+                }
+            }
+
+            .taskplatform_banner {
+                width: 100%;
+                height: 160px;
+                background-image: url("../images/banner/complaint_banner.jpg");
+                background-repeat: no-repeat;
+                background-size: 100%;
+                img {
+                    width: 35vw;
+                    margin: 5% 33% 0 33%;
+                }
+                .taskplatform_titleword {
+                    font-size: 25px;
+                    font-weight: bolder;
+                    color: #fff;
+                    text-align: center;
+                }
+            }
+        }
+
+        .taskplatform_main {
+            width: 100%;
+            height: 100%;
+            overflow-y: scroll;
+            // width: 100%;
+            // height: 900px;
+            background-color: #fff;
+            p:nth-child(1) {
+                font-size: 15px;
+                margin: 3% 0 0 6%;
+            }
+            p:nth-child(2) {
+                font-size: 15px;
+                margin: 0 0 0 6%;
+            }
+            .taskplatform_data {
+                width: 90%;
+                height: 30px;
+                border: 1px solid #ff9638;
+                border-radius: 15px;
+                text-align: center;
+                line-height: 30px;
+
+                margin: 1% 5% 3% 5%;
+            }
+        }
+    }
+
+    //productplatform 商品佣金
+    #productplatform {
+        .productplatform_header {
+            position: sticky;
+            top: 0;
+            z-index: 5;
+            background-color: #fff;
+            .productplatform_title {
+                width: 100%;
+                height: 28px;
+                background-color: #000;
+
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .return {
+                    font-size: 18px;
+                    color: #fff;
+                    display: block;
+                    margin-left: 1%;
+                }
+                a{
+                    text-decoration: none;
+                }
+                .productplatform_titleword {
+                    font-size: 18px;
+                    font-weight: bolder;
+                    color: #fff;
+                    margin-right: 1%;
+                }
+            }
+            .productplatform_all {
+                background-color: #eceaea;
+                padding-bottom: 3%;
+                p {
+                    font-size: 20px;
+                    font-weight: bolder;
+                    text-align: center;
+                    // margin: 2% auto;
+                    padding: 2%;
+                }
+                .productplatform_type {
+                    width: 95%;
+                    margin-left: 5%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .productplatform_type_l {
+                        font-size: 18px;
+                        font-weight: bolder;
+                    }
+                    .productplatform_type_r {
+                        width: 35%;
+                        display: flex;
+                        .productplatform_btn {
+                            width: 50%;
+                            height: 25px;
+                            font-size: 15px;
+                            font-weight: bolder;
+                            color: #fff;
+                            text-align: center;
+                            line-height: 25px;
+                            margin-right: 10%;
+
+                            background-image: url("../images/shared/按鈕1.png");
+                            background-repeat: no-repeat;
+                            background-size: 100% 100%;
+                        }
+                        img {
+                            width: 8vw;
+                        }
+                    }
+                }
+            }
+        }
+
+        .productplatform_main {
+            width: 100%;
+            height: 950px;
+            background-color: #eceaea;
+            .productplatform_card {
+                width: 90%;
+                height: 75px;
+                margin-bottom: 5%;
+                margin-left: 5%;
+                background-color: #fff;
+                border-radius: 10px;
+
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                img {
+                    width: 15vw;
+                }
+                .productplatform_commodity {
+                    text-align: center;
+                    width: 35%;
+                    word-wrap: break-word;
+                    p:nth-child(1) {
+                        font-size: 15px;
+                        font-weight: bolder;
+                    }
+                    p:nth-child(2) {
+                        font-size: 15px;
+                        font-weight: bolder;
+                        margin-top: 5%;
+                    }
+                }
+                .productplatform_cash {
+                    text-align: center;
+                    width: 15%;
+                    word-wrap: break-word;
+                    p:nth-child(1) {
+                        font-size: 15px;
+                        font-weight: bolder;
+                    }
+                    p:nth-child(2) {
+                        font-size: 15px;
+                        color: #2dcd25;
+                        font-weight: bolder;
+                        margin-top: 5%;
+                    }
+                }
+            }
+        }
+    }
+    // producttype 商品分類
+    #producttype {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 99;
+        display: none;
+        .producttype_header {
+            width: 300px;
+            height: 30px;
+            color: #fff;
+            font-weight: bolder;
+            font-size: 18px;
+            text-align: center;
+            line-height: 30px;
+            background-color: #000;
+        }
+        .producttype_main {
+            width: 300px;
+            height: 140px;
+            background-color: #fff;
+            .producttype_card {
+                margin: 0% auto 3% 10%;
+
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                p {
+                    margin-top: 5%;
+                    font-size: 15px;
+                }
+                select {
+                    width: 170px;
+                    height: 20px;
+                    font-size: 15px;
+                    border: 1px solid #6c6c6c;
+                    border-color: #6c6c6c;
+                    margin: 5% 0 0 5%;
+                }
+            }
+            .producttype_btn {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .producttype_close {
+                    width: 20%;
+                    height: 25px;
+                    text-align: center;
+                    line-height: 25px;
+                    color: #fff;
+                    margin: 3% 2% 0 0;
+
+                    background-image: url("../images/shared/按鈕4.png");
+                    background-repeat: repeat;
+                    background-size: 100% 100%;
+
+                    cursor: pointer;
+                }
+
+                .producttype_sure {
+                    width: 20%;
+                    height: 25px;
+                    text-align: center;
+                    line-height: 25px;
+                    color: #fff;
+                    margin: 3% 0 0 2%;
+
+                    background-image: url("../images/shared/按鈕1.png");
+                    background-repeat: repeat;
+                    background-size: 100% 100%;
+
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    //operatingplatform 經營攻略
+    #operatingplatform {
+        .operatingplatform_title {
+            width: 100%;
+            height: 200px;
+            background-image: url("../images/banner/complaint_banner.jpg");
+            background-repeat: no-repeat;
+            background-size: 100%;
+            .return {
+                font-size: 25px;
+                color: #fff;
+
+                display: block;
+                margin-left: 5%;
+            }
+            a{
+                text-decoration: none;
+            }
+            .operatingplatform_titleword {
+                font-size: 35px;
+                font-weight: bolder;
+                color: #fff;
+                text-align: center;
+                margin: 8% auto;
+            }
+        }
+        .operatingplatform_main {
+            .operatingplatform_card_title {
+                width: 100%;
+                height: 60px;
+                font-size: 25px;
+                line-height: 70px;
+                font-weight: bolder;
+                text-align: center;
+            }
+            .operatingplatform_card_title1 {
+                width: 95%;
+                height: 60px;
+                font-size: 25px;
+                line-height: 70px;
+                font-weight: bolder;
+                text-align: left;
+                margin: 0 auto 2% auto;
+            }
+            .operatingplatform_card {
+                .operatingplatform_card_word {
+                    width: 95%;
+                    margin: 0 auto 2% auto;
+                    font-size: 18px;
+                    color: #f88b2f;
+                    font-weight: bold;
+                }
+                .operatingplatform_card_word1 {
+                    width: 95%;
+                    margin: 0 auto 2% auto;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    //platformall 平台總覽
+    #platformall {
+        .platformall_titile {
+            width: 100%;
+            height: 28px;
+            background-color: #000;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .return {
+                font-size: 18px;
+                color: #fff;
+
+                display: block;
+                margin-left: 1%;
+            }
+            a{
+                text-decoration: none;
+            }
+            .platformall_word {
+                font-size: 18px;
+                color: #fff;
+                margin-right: 1%;
+            }
+        }
+
+        .platformall_banner {
+            width: 100%;
+            height: 50px;
+            background-color: #eaeaea;
+
+            .platformall_titleword {
+                font-size: 25px;
+                font-weight: bolder;
+                color: #000;
+                font-weight: bolder;
+                text-align: center;
+                line-height: 15px;
+                padding-top: 5%;
+            }
+        }
+
+        .platformall_main {
+            width: 100%;
+            height: 800px;
+            overflow-y: hidden;
+            background-color: #eaeaea;
+            .platformall_main_card {
+                width: 95%;
+                height: 55px;
+                background-color: #fff;
+                border-radius: 10px;
+                margin: 0 auto 5% auto;
+                .platformall_mainword {
+                    font-size: 17px;
+                    padding: 1% 0 0% 4%;
+                    color: #000;
+                    font-weight: bold;
+                }
+                .platformall_mainword1 {
+                    font-size: 17px;
+                    padding: 1% 0 0% 4%;
+                    font-weight: bold;
+                    color: green;
+                }
+            }
+        }
+    }
+
+    //bulletinplatform 平台公告
+    #bulletinplatform {
+        .bulletinplatform_header {
+            position: sticky;
+            top: 0;
+            z-index: 5;
+            background-color: #fff;
+            overflow-x: hidden;
+            .bulletinplatform_titile {
+                width: 100%;
+                height: 28px;
+                background-color: #000;
+
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .return {
+                    font-size: 18px;
+                    color: #fff;
+
+                    display: block;
+                    margin-left: 1%;
+                }
+                a{
+                    text-decoration: none;
+                }
+                .bulletinplatform_word {
+                    font-size: 18px;
+                    color: #fff;
+                    margin-right: 1%;
+                }
+            }
+
+            .bulletinplatform_banner {
+                img {
+                    width: 100%;
+                    height: 160px;
+                }
+            }
+        }
+
+        .bulletinplatform_main {
+            width: 100%;
+            height: 77vh;
+            overflow-y: hidden;
+            background-color: #eaeaea;
+            .bulletinplatform_main_card {
+                width: 90%;
+                height: 85px;
+                background-color: #fff;
+                border-radius: 10px;
+                margin: 5% auto 5% auto;
+
+                display: flex;
+                justify-content: space-between;
+                .bulletinplatform_mainword {
+                    font-size: 15px;
+                    padding: 5% 0% 0% 1%;
+                    color: #f77722;
+                    font-weight: bold;
+                }
+                .bulletinplatform_mainword1 {
+                    font-size: 15px;
+                    padding: 3% 0% 0% 0%;
+                    color: #000;
+                    font-weight: bold;
+                    text-align: center;
+                }
+                .bulletinplatform_mainword2 {
+                    font-size: 15px;
+                    padding: 1% 0 0% 1%;
+                    color: #000;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    // newsplatform 訊息内容
+    #newsplatform {
+        position: fixed;
+        top: 53%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 99;
+        display: none;
+        .newsplatform_header {
+            width: 350px;
+            height: 30px;
+            color: #fff;
+            font-weight: bolder;
+            font-size: 18px;
+            text-align: center;
+            line-height: 30px;
+            background-color: #000;
+        }
+        .newsplatform_main {
+            width: 350px;
+            height: 200px;
+            background-color: #fff;
+            .newsplatform_card {
+                .newsplatform_word {
+                    font-size: 18px;
+                    color: #f77722;
+                    font-weight: bolder;
+                    padding-top: 2%;
+                    margin: 0% 0 0 2%;
+                }
+                .newsplatform_word1 {
+                    font-size: 18px;
+                    color: #000;
+                    font-weight: bolder;
+                    margin: 2% 0 0 2%;
+                }
+            }
+            .newsplatform_btn {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .newsplatform_close {
+                    width: 25%;
+                    height: 30px;
+                    font-size: 18px;
+                    text-align: center;
+                    line-height: 30px;
+                    background-color: #f77722;
+                    border-radius: 15px;
+                    color: #fff;
+                    margin: 3% 2% 0 0;
+
+                    position: fixed;
+                    bottom: 5%;
+
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    //hotProducts 我的熱情
+    #hotProducts {
+        .hotProducts_header {
+            position: sticky;
+            top: 0;
+            z-index: 5;
+            background-color: #fff;
+            .hotProducts_title {
+                width: 100%;
+                height: 28px;
+                background-color: #000;
+
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .return {
+                    font-size: 18px;
+                    color: #fff;
+
+                    display: block;
+                    margin-left: 1%;
+                }
+                a{
+                    text-decoration: none;
+                }
+                .hotProducts_titleword {
+                    font-size: 18px;
+                    font-weight: bolder;
+                    color: #fff;
+                    margin-right: 1%;
+                }
+            }
+            .hotProducts_all {
+                background-color: #eceaea;
+                padding-bottom: 3%;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        .hotProducts_main {
+            width: 100%;
+            height: 80vh;
+            background-color: #eceaea;
+            .hotProducts_card {
+                width: 90%;
+                height: 75px;
+                margin-bottom: 5%;
+                margin-left: 5%;
+                background-color: #fff;
+                border-radius: 10px;
+
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                
+                img:nth-child(1) {
+                    width: 12vw;
+                    padding: 0px 6% 29% 0px;
+                }
+                img:nth-child(2) {
+                    width: 15vw;
+                }
+                .hotProducts_commodity {
+                    width: 40%;
+                    text-align: center;
+                    word-wrap: break-word;
+                    p:nth-child(1) {
+                        font-size: 15px;
+                        font-weight: bolder;
+                    }
+                    p:nth-child(2) {
+                        font-size: 15px;
+                        font-weight: bolder;
+                        margin-top: 5%;
+                    }
+                }
+                .hotProducts_cash {
+                    text-align: center;
+                    width: 21%;
+                    word-wrap: break-word;
+                    p:nth-child(1) {
+                        font-size: 15px;
+                        color: #000;
+                        font-weight: bolder;
+                    }
+                    p:nth-child(2) {
+                        font-size: 15px;
+                        color: #000;
+                        font-weight: bolder;
+                        margin-top: 5%;
+                    }
+                }
+
+                .hotProducts_ranking{
+                    display: flex;
+                    .ranking{
+                        width: 45px;
+                        display: block;
+                        font-size: 20px;
+                        font-weight: bolder;
+                        padding: 0px 6% 0% 15%;
+                    }
+                    img{
+                        margin-left: 17%;
+                    }
+                }
+            }
+        }
+    }
+
+     //mydata 我的資訊
+     #mydata {
+        .mydata_header {
+            .mydata_title {
+                width: 100%;
+                height: 28px;
+                background-color: #000;
+
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .return {
+                    font-size: 18px;
+                    color: #fff;
+
+                    display: block;
+                    margin-left: 1%;
+                }
+                a{
+                    text-decoration: none;
+                }
+                .mydata_titleword {
+                    font-size: 18px;
+                    font-weight: bolder;
+                    color: #fff;
+                    margin-right: 1%;
+                }
+            }
+            .mydata_all {
+                background-color: #eceaea;
+                p {
+                    font-size: 20px;
+                    color: #000;
+                    font-weight: bolder;
+                    text-align: center;
+                    padding: 2%;
+                }
+            }
+        }
+
+        .mydata_main {
+            width: 100%;
+            height: 92vh;
+            background-color: #eceaea;
+            .mydata_card {
+                width: 90%;
+                height: 40px;
+                margin: 0 0 5% 5%;
+                background-color: #fff;
+                border-radius: 10px;
+
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                img {
+                    width: 15vw;
+                }
+                .mydata_word {
+                    text-align: center;
+                    margin: auto 2%;
+                    p{
+                        font-size: 15px;
+                        font-weight: bolder;
+                    }
+                }
+                .mydata_word2 {
+                    text-align: center;
+                    margin: auto 2%;
+                    p{
+                        font-size: 15px;
+                        font-weight: bolder;
+                    }
+                }
+                .mydata_word3 {
+                    text-align: center;
+                    margin: auto 2%;
+
+                    display: flex;
+                    .password_first{
+                        font-size: 14px;
+                        font-weight: bolder;
+                    
+                    }
+                    .password_second{
+                        color: #f77722;
+                        font-size: 15px;
+                        font-weight: bolder;
+                
+                    }
+                    
+                }
+            }
+        }
+    }
+
+    //修改密碼
+    #changepassword {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 99;
+        display: none;
+        .changepassword_header {
+            width: 300px;
+            height: 30px;
+            color: #fff;
+            font-weight: bolder;
+            font-size: 15px;
+            text-align: center;
+            line-height: 30px;
+            background-color: #000;
+        }
+        .changepassword_main {
+            width: 300px;
+            height: 150px;
+            background-color: #fff;
+            .changepassword_card {
+                margin: 0% auto 0% 10%;
+
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                p {
+                    margin-top: 5%;
+                    margin-left: 1%;
+                    font-size: 15px;
+                }
+                input {
+                    width: 170px;
+                    height: 20px;
+                    border: 1px solid #6c6c6c;
+                    border-color: #6c6c6c;
+                    margin: 5% 5% 0 5%;
+                }
+            }
+            .changepassword_btn {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .changepassword_close {
+                    width: 20%;
+                    height: 25px;
+                    text-align: center;
+                    line-height: 25px;
+                    color: #fff;
+                    margin: 5% 2% 0 0;
+
+                    background-image: url("../images/shared/按鈕4.png");
+                    background-repeat: repeat;
+                    background-size: 100% 100%;
+
+                    cursor: pointer;
+                }
+
+                .changepassword_sure {
+                    width: 20%;
+                    height: 25px;
+                    text-align: center;
+                    line-height: 25px;
+                    color: #fff;
+                    margin: 5% 0 0 2%;
+
+                    background-image: url("../images/shared/按鈕1.png");
+                    background-repeat: repeat;
+                    background-size: 100% 100%;
+
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+}
